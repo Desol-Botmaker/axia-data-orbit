@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "E/xnbEEEdkIAISCd/RBN26YGHlj+uKeap8qgVxcmqK8=",
+  "Source": "WebhookGail",
+  "BasePath": "_content/WebhookGail",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

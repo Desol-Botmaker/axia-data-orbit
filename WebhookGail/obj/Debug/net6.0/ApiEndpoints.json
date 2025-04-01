@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "WebhookGail.Controllers.WebhookGailController",
+    "Method": "Post",
+    "RelativePath": "webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payload",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebhookGail.Controllers.WebhookGailController",
+    "Method": "PostTemplateAsync",
+    "RelativePath": "webhook",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "template",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phoneNumberId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "displayPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "campaignId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebhookGail.Controllers.WebhookGailController",
+    "Method": "GetCustomerInfoAsync",
+    "RelativePath": "webhook/getCustomerInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
